@@ -1,12 +1,11 @@
 ﻿<!DOCTYPE html>
 <html>
-
 <!-- #BeginTemplate "zero.dwt" -->
 
 <head>
 <!-- #BeginEditable "doctitle" -->
-	<title>Fit Sport: rafting, offroad, catarare, drumetie, volei, ski</title>
-	<meta name="description" content="Rafting, offroad, pesteri, catarare, drumetie, volei, ski - Fit Sport: sanatate prin miscare">
+	<title>Fit Sport - galerie foto</title>
+	<meta name="description" content="Drumetie la munte, rafting, pestera, catarare, rapel, tiroliana - Fit Sport: sanatate prin miscare">
 <!-- #EndEditable -->
 	<meta charset="iso-8859-2">
 	<meta name="robots" content="index,follow,all">
@@ -66,42 +65,12 @@
 		<!-- Begin R Column -->
 		<div id="column_r">
 			<!-- #BeginEditable "content" -->
-			<h1>Fit Sport</h1>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque 
-			ornare ipsum at erat. Quisque elementum tempus urna. Donec ornare fringilla 
-			erat. Phasellus gravida lectus vel dui. Fusce eget justo at odio posuere 
-			dignissim.</p>
-			<h2>Rafting</h2>
-			<p>Sed porta, turpis sit amet viverra rhoncus, mauris urna interdum 
-			erat, nec semper dui diam ut libero. Donec adipiscing placerat metus. 
-			Integer eu eros vel risus ornare consequat. Curabitur sem erat, tempor 
-			non, ullamcorper quis, dapibus a, ante. Aliquam tempus tellus eget est. 
-			In hendrerit turpis sed ligula. Integer vulputate nibh congue magna. 
-			Duis commodo leo sit amet quam. Nunc commodo sodales nunc. Donec est 
-			nunc, porttitor et, accumsan nec, pretium quis, mauris. Duis sapien. 
-			Nulla felis lorem, accumsan vitae, ultricies et, hendrerit vel, massa. 
-			In nonummy tortor et metus. Aenean lacinia orci non risus. Aenean vulputate 
-			vel lectus. Aliquam erat volutpat. Duis diam.</p>
-			<h3>Off Road</h3>
-			<ul>
-				<li>Proin sed turpis in urna varius venenatis. Morbi sit amet ligula 
-				eget est semper tempor. Sed sodales, arcu quis semper iaculis, nibh 
-				tortor feugiat purus, et dignissim turpis sem vitae sem. Morbi aliquet 
-				purus eget tellus.</li>
-				<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean 
-				enim justo, tincidunt sed, vestibulum sed, pretium eget, arcu.</li>
-			</ul>
-			<h4>Catarare</h4>
-			<p>Sed porta, turpis sit amet viverra rhoncus, mauris urna interdum 
-			erat, nec semper dui diam ut libero. Donec adipiscing placerat metus. 
-			Integer eu eros vel risus ornare consequat. Curabitur sem erat, tempor 
-			non, ullamcorper quis, dapibus a, ante. Aliquam tempus tellus eget est. 
-			In hendrerit turpis sed ligula. Integer vulputate nibh congue magna. 
-			Duis commodo leo sit amet quam. Nunc commodo sodales nunc. Donec est 
-			nunc, porttitor et, accumsan nec, pretium quis, mauris. Duis sapien. 
-			Nulla felis lorem, accumsan vitae, ultricies et, hendrerit vel, massa. 
-			In nonummy tortor et metus. Aenean lacinia orci non risus. Aenean vulputate 
-			vel lectus. Aliquam erat volutpat. Duis diam.</p>
+			<h2>Galerie foto</h2>
+				<a href="images/fullscreen/3.jpg" rel="prettyPhoto[gallery]" title="How is the description on that one? How is the description on that one? How is the description on that one? "><img src="images/thumbnails/t_3.jpg" width="60" height="60" alt="This is a pretty long title"></a>
+				<a href="images/fullscreen/4.jpg" rel="prettyPhoto[gallery]" title="Description on a single line."><img src="images/thumbnails/t_4.jpg" width="60" height="60" alt=""></a>
+				<a href="images/fullscreen/5.jpg" rel="prettyPhoto[gallery]"><img src="images/thumbnails/t_5.jpg" width="60" height="60" alt=""></a>
+				<a href="images/fullscreen/1.jpg" rel="prettyPhoto[gallery]"><img src="images/thumbnails/t_1.jpg" width="60" height="60" alt=""></a>
+				<a href="images/fullscreen/2.jpg" rel="prettyPhoto[gallery]"><img src="images/thumbnails/t_2.jpg" width="60" height="60" alt=""></a>
 			<!-- #EndEditable --></div>
 		<!-- End R Column --->
 	</div>
@@ -127,6 +96,14 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" charset="utf-8"></script>
 <script type="text/javascript" src="javascripts/animatheader.js" charset="utf-8"></script>
 <!-- #BeginEditable "scripts" -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	  	$('#cont').hide().delay(400).fadeIn(600);
+	    $("a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal', theme:'pp_default', slideshow:3000, opacity:0.6, counter_separator_label:' din ', social_tools:false, autoplay_slideshow:true, deeplinking:false});
+	  });
+	</script>
 <!-- #EndEditable "scripts" -->
 <script type="text/javascript">
 

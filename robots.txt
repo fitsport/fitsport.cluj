@@ -1,0 +1,3 @@
+User-agent: * 
+Sitemap: http://www.fitsport.ro/sitemap.xml.gz
+Disallow: /cgi-bin/
